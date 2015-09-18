@@ -24,5 +24,8 @@
   "devDependencies": {
     "blue-tape": "^0.1.10",
     "faucet": "0.0.1"
+  },
+  "dependencies": {
+    "native-promise-only": "^0.8.1"
   }
 }

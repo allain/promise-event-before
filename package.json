@@ -1,6 +1,6 @@
 {
   "name": "promise-event-before",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool that returns a promise that resolves if an EventEmitter emits an event before the given timeout",
   "main": "index.js",
   "scripts": {

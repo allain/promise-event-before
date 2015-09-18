@@ -1,0 +1,28 @@
+{
+  "name": "promise-event-before",
+  "version": "1.0.0",
+  "description": "A tool that returns a promise that resolves if an EventEmitter emits an event before the given timeout",
+  "main": "index.js",
+  "scripts": {
+    "test": "faucet test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allain/promise-event-before.git"
+  },
+  "keywords": [
+    "promise",
+    "events",
+    "timeout"
+  ],
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allain/promise-event-before/issues"
+  },
+  "homepage": "https://github.com/allain/promise-event-before#readme",
+  "devDependencies": {
+    "blue-tape": "^0.1.10",
+    "faucet": "0.0.1"
+  }
+}

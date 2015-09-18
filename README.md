@@ -15,7 +15,7 @@ var diceRollEmitter = ...
 
 var eventBefore = require('promise-event-before');
 
-eventBefore(emitter, 'rolled', 1000).then(function(emittedValue) {
+eventBefore(emitter, 'rolled', 1000).then(function(roll) {
   console.log('dice roll:', roll);
 }, function(err) {
     console.error(err);
